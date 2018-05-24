@@ -834,41 +834,6 @@ class AirFreight extends Component {
     )
   }
 }
-class Biker extends Component {
-
-  /* #TODO
-    CREATE MANIPULATIBLE SUPPLY BAR
-  */
-
-  constructor() {
-    super();
-
-    var cocaineEquipment = false;
-    var cocaineStaff = false;
-    var cocaineSupply = 0.0;
-    var cocaineStockPrice = 0.0;
-
-    var methEquipment = false;
-    var methStaff = false;
-    var methSupply = 0.0;
-    var methStockPrice = 0.0;
-
-    var weedEquipment = false;
-    var weedStaff = false;
-    var weedSupply = 0.0;
-    var weedStockPrice = 0.0;
-
-    var counterfeitEquipment = false;
-    var counterfeitStaff = false;
-    var counterfeitSupply = 0.0;
-    var counterfeitStockPrice = 0.0;
-
-    var documentEquipment = false;
-    var documentStaff = false;
-    var documentSupply = 0.0;
-    var documentStockPrice = 0.0;
-  }
-}
 
 class Gunrunning extends React.Component {
 
@@ -1271,6 +1236,42 @@ class Warehouse extends Component {
     var capacity = 16; //42 or 111
     var crates = 0;
     var stockPrice;
+  }
+}
+
+class Biker extends Component {
+
+  /* #TODO
+    CREATE MANIPULATIBLE SUPPLY BAR
+  */
+
+  constructor() {
+    super();
+
+    var cocaineEquipment = false;
+    var cocaineStaff = false;
+    var cocaineSupply = 0.0;
+    var cocaineStockPrice = 0.0;
+
+    var methEquipment = false;
+    var methStaff = false;
+    var methSupply = 0.0;
+    var methStockPrice = 0.0;
+
+    var weedEquipment = false;
+    var weedStaff = false;
+    var weedSupply = 0.0;
+    var weedStockPrice = 0.0;
+
+    var counterfeitEquipment = false;
+    var counterfeitStaff = false;
+    var counterfeitSupply = 0.0;
+    var counterfeitStockPrice = 0.0;
+
+    var documentEquipment = false;
+    var documentStaff = false;
+    var documentSupply = 0.0;
+    var documentStockPrice = 0.0;
   }
 }
 
