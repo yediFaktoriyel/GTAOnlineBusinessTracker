@@ -1,0 +1,3 @@
+rootProject.name = 'GTA_Online_Business_Tracker'
+
+include ':app'
